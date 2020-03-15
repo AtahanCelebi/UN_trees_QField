@@ -50,7 +50,7 @@
             // Define markers as "features" of the vector layer:
     var feature = new OpenLayers.Feature.Vector(
             new OpenLayers.Geometry.Point( lon,lat ).transform(epsg4326, projectTo),
-            {description:'Latitude:'+lat+'<br>Longitude:'+lon+'<br>'+tree_t+'<br>İmage<br>'+'img src=https://www.w3schools.com/images/w3schools_green.jpg'} ,
+            {description:'Latitude:'+lat+'<br>Longitude:'+lon+'<br>'+'<br>İmage<br>'+'<img src="http://pngimg.com/uploads/tree/tree_PNG92789.png"  height="100" width="100">'} ,
             
             {externalGraphic: 'img/marker.png', graphicHeight: 25, graphicWidth: 21, graphicXOffset:-12, graphicYOffset:-25  }
         );    
